@@ -1,0 +1,233 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+1696245703.248751 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [S], seq 143926627, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.248755 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [S], seq 143926627, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.248756 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [S], seq 143926627, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.249017 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [S.], seq 3523150720, ack 143926628, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.249017 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [S.], seq 3523150720, ack 143926628, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.249017 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [S.], seq 3523150720, ack 143926628, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.312049 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.312052 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.312054 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.312585 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.312585 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.312585 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.375434 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.375438 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.375439 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.375571 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 1:17, ack 78, win 1023, length 16: FTP: USER anonymous
+1696245703.375572 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 1:17, ack 78, win 1023, length 16: FTP: USER anonymous
+1696245703.375573 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 1:17, ack 78, win 1023, length 16: FTP: USER anonymous
+1696245703.375886 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 78:113, ack 17, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.375886 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 78:113, ack 17, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.375886 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 78:113, ack 17, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.438761 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.438765 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.438766 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.438809 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 17:31, ack 113, win 1023, length 14: FTP: PASS IEUser@
+1696245703.438810 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 17:31, ack 113, win 1023, length 14: FTP: PASS IEUser@
+1696245703.438811 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [P.], seq 17:31, ack 113, win 1023, length 14: FTP: PASS IEUser@
+1696245703.439304 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 113:135, ack 31, win 1028, length 22: FTP: 530 Login incorrect.
+1696245703.439304 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 113:135, ack 31, win 1028, length 22: FTP: 530 Login incorrect.
+1696245703.439304 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [P.], seq 113:135, ack 31, win 1028, length 22: FTP: 530 Login incorrect.
+1696245703.502525 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 135, win 1023, length 0
+1696245703.502529 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 135, win 1023, length 0
+1696245703.502531 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 135, win 1023, length 0
+1696245703.502717 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [F.], seq 31, ack 135, win 1023, length 0
+1696245703.502718 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [F.], seq 31, ack 135, win 1023, length 0
+1696245703.502719 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [F.], seq 31, ack 135, win 1023, length 0
+1696245703.502898 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [.], ack 32, win 1028, length 0
+1696245703.502898 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [.], ack 32, win 1028, length 0
+1696245703.502898 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [.], ack 32, win 1028, length 0
+1696245703.503169 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [F.], seq 135, ack 32, win 1028, length 0
+1696245703.503169 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [F.], seq 135, ack 32, win 1028, length 0
+1696245703.503169 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63383: Flags [F.], seq 135, ack 32, win 1028, length 0
+1696245703.503388 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [S], seq 2282448785, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.503391 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [S], seq 2282448785, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.503393 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [S], seq 2282448785, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.503636 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [S.], seq 3817945322, ack 2282448786, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.503636 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [S.], seq 3817945322, ack 2282448786, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.503636 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [S.], seq 3817945322, ack 2282448786, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245703.566755 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.566760 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.566761 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245703.567232 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.567232 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.567232 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245703.575543 Lvlan1100_22 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.575546 bond0 Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.575547 eno3  Out IP 94.131.2.113.63383 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.630218 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.630223 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.630224 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245703.630315 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245703.630316 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245703.630317 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245703.630587 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.630587 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.630587 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245703.694823 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.694829 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.694830 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245703.695002 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245703.695003 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245703.695004 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245703.748677 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 35, win 1028, length 0
+1696245703.748677 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 35, win 1028, length 0
+1696245703.748677 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 35, win 1028, length 0
+1696245703.754928 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245703.754928 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245703.754928 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245703.819616 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.819621 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.819623 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245703.819650 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245703.819651 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245703.819652 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245703.819957 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245703.819957 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245703.819957 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245703.886450 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245703.886454 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245703.886456 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245703.886501 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245703.886502 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245703.886503 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245703.886824 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245703.886824 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245703.886824 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245703.950224 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245703.950228 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245703.950230 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245704.288274 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 3578185966:3578185972, ack 3621352373, win 1021, length 6: FTP: noop
+1696245704.288279 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 0:6, ack 1, win 1021, length 6: FTP: noop
+1696245704.288280 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 0:6, ack 1, win 1021, length 6: FTP: noop
+1696245704.288929 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 1:15, ack 6, win 1028, length 14: FTP: 200 Noop ok.
+1696245704.288929 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 1:15, ack 6, win 1028, length 14: FTP: 200 Noop ok.
+1696245704.288929 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 1:15, ack 6, win 1028, length 14: FTP: 200 Noop ok.
+1696245704.351976 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 15, win 1021, length 0
+1696245704.351980 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 15, win 1021, length 0
+1696245704.351982 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 15, win 1021, length 0
+1696245704.352099 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 6:13, ack 15, win 1021, length 7: FTP: CWD /
+1696245704.352101 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 6:13, ack 15, win 1021, length 7: FTP: CWD /
+1696245704.352101 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 6:13, ack 15, win 1021, length 7: FTP: CWD /
+1696245704.352505 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 15:43, ack 13, win 1028, length 28: FTP: 250 CWD command successful
+1696245704.352505 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 15:43, ack 13, win 1028, length 28: FTP: 250 CWD command successful
+1696245704.352505 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 15:43, ack 13, win 1028, length 28: FTP: 250 CWD command successful
+1696245704.416132 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 43, win 1021, length 0
+1696245704.416136 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 43, win 1021, length 0
+1696245704.416138 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 43, win 1021, length 0
+1696245704.416171 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 13:21, ack 43, win 1021, length 8: FTP: TYPE A
+1696245704.416172 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 13:21, ack 43, win 1021, length 8: FTP: TYPE A
+1696245704.416173 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 13:21, ack 43, win 1021, length 8: FTP: TYPE A
+1696245704.416565 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 43:62, ack 21, win 1028, length 19: FTP: 200 Type set to A
+1696245704.416565 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 43:62, ack 21, win 1028, length 19: FTP: 200 Type set to A
+1696245704.416565 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 43:62, ack 21, win 1028, length 19: FTP: 200 Type set to A
+1696245704.481656 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 62, win 1021, length 0
+1696245704.481661 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 62, win 1021, length 0
+1696245704.481662 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 62, win 1021, length 0
+1696245704.481666 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 21:27, ack 62, win 1021, length 6: FTP: PASV
+1696245704.481667 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 21:27, ack 62, win 1021, length 6: FTP: PASV
+1696245704.481667 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [P.], seq 21:27, ack 62, win 1021, length 6: FTP: PASV
+1696245704.482490 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 62:113, ack 27, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,219,175)
+1696245704.482490 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 62:113, ack 27, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,219,175)
+1696245704.482490 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.62882: Flags [P.], seq 62:113, ack 27, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,219,175)
+1696245704.545637 Lvlan1100_22 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 113, win 1021, length 0
+1696245704.545641 bond0 Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 113, win 1021, length 0
+1696245704.545643 eno3  Out IP 94.131.2.113.62882 > 192.168.10.13.21: Flags [.], ack 113, win 1021, length 0
+1696245704.616332 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [F.], seq 54, ack 230, win 1023, length 0
+1696245704.616336 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [F.], seq 54, ack 230, win 1023, length 0
+1696245704.616338 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [F.], seq 54, ack 230, win 1023, length 0
+1696245704.616635 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 55, win 1028, length 0
+1696245704.616635 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 55, win 1028, length 0
+1696245704.616635 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [.], ack 55, win 1028, length 0
+1696245704.616890 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [F.], seq 230, ack 55, win 1028, length 0
+1696245704.616890 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [F.], seq 230, ack 55, win 1028, length 0
+1696245704.616890 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63391: Flags [F.], seq 230, ack 55, win 1028, length 0
+1696245704.667510 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [S], seq 932330986, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.667515 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [S], seq 932330986, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.667517 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [S], seq 932330986, win 65535, options [mss 1358,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.667888 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [S.], seq 3635879183, ack 932330987, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.667888 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [S.], seq 3635879183, ack 932330987, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.667888 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [S.], seq 3635879183, ack 932330987, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+1696245704.679827 Lvlan1100_22 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 231, win 1023, length 0
+1696245704.679831 bond0 Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 231, win 1023, length 0
+1696245704.679833 eno3  Out IP 94.131.2.113.63391 > 192.168.10.13.21: Flags [.], ack 231, win 1023, length 0
+1696245704.732919 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245704.732924 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245704.732925 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 1, win 1024, length 0
+1696245704.733786 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245704.733786 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245704.733786 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 1:78, ack 1, win 1029, length 77: FTP: 220-FileZilla Server 1.3.0
+1696245704.798609 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245704.798613 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245704.798615 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 78, win 1023, length 0
+1696245704.800499 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245704.800501 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245704.800502 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 1:18, ack 78, win 1023, length 17: FTP: USER testaideco
+1696245704.800850 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245704.800850 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245704.800850 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 78:113, ack 18, win 1029, length 35: FTP: 331 Please, specify the password.
+1696245704.865224 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245704.865228 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245704.865230 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 113, win 1023, length 0
+1696245704.865384 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245704.865385 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245704.865386 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 18:35, ack 113, win 1023, length 17: FTP: PASS 23164TestA
+1696245704.920602 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 35, win 1028, length 0
+1696245704.920602 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 35, win 1028, length 0
+1696245704.920602 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 35, win 1028, length 0
+1696245704.925459 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245704.925459 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245704.925459 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 113:136, ack 35, win 1028, length 23: FTP: 230 Login successful.
+1696245704.989277 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245704.989280 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245704.989282 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 136, win 1023, length 0
+1696245704.989552 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245704.989553 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245704.989554 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 35:49, ack 136, win 1023, length 14: FTP: opts utf8 on
+1696245704.989994 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245704.989994 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245704.989994 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 136:199, ack 49, win 1028, length 63: FTP: 202 UTF8 mode is always enabled. No need to send this command
+1696245705.053873 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245705.053876 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245705.053878 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 199, win 1023, length 0
+1696245705.053997 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245705.053998 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245705.053999 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 49:54, ack 199, win 1023, length 5: FTP: PWD
+1696245705.054379 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245705.054379 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245705.054379 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 199:230, ack 54, win 1028, length 31: FTP: 257 "/" is current directory.
+1696245705.117457 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245705.117462 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245705.117465 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 230, win 1023, length 0
+1696245705.117568 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 54:62, ack 230, win 1023, length 8: FTP: TYPE A
+1696245705.117569 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 54:62, ack 230, win 1023, length 8: FTP: TYPE A
+1696245705.117570 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 54:62, ack 230, win 1023, length 8: FTP: TYPE A
+1696245705.117927 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 230:249, ack 62, win 1028, length 19: FTP: 200 Type set to A
+1696245705.117927 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 230:249, ack 62, win 1028, length 19: FTP: 200 Type set to A
+1696245705.117927 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 230:249, ack 62, win 1028, length 19: FTP: 200 Type set to A
+1696245705.181107 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 249, win 1023, length 0
+1696245705.181112 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 249, win 1023, length 0
+1696245705.181114 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 249, win 1023, length 0
+1696245705.181161 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 62:68, ack 249, win 1023, length 6: FTP: PASV
+1696245705.181162 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 62:68, ack 249, win 1023, length 6: FTP: PASV
+1696245705.181163 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [P.], seq 62:68, ack 249, win 1023, length 6: FTP: PASV
+1696245705.181766 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 249:300, ack 68, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,218,216)
+1696245705.181766 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 249:300, ack 68, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,218,216)
+1696245705.181766 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [P.], seq 249:300, ack 68, win 1028, length 51: FTP: 227 Entering Passive Mode (192,168,10,13,218,216)
+1696245705.246066 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 300, win 1022, length 0
+1696245705.246071 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 300, win 1022, length 0
+1696245705.246074 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 300, win 1022, length 0
+1696245706.827276 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [F.], seq 68, ack 300, win 1022, length 0
+1696245706.827279 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [F.], seq 68, ack 300, win 1022, length 0
+1696245706.827281 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [F.], seq 68, ack 300, win 1022, length 0
+1696245706.827566 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 69, win 1028, length 0
+1696245706.827566 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 69, win 1028, length 0
+1696245706.827566 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [.], ack 69, win 1028, length 0
+1696245706.827830 eno3  In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [F.], seq 300, ack 69, win 1028, length 0
+1696245706.827830 bond0 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [F.], seq 300, ack 69, win 1028, length 0
+1696245706.827830 Lvlan1100_22 In  IP 192.168.10.13.21 > 94.131.2.113.63394: Flags [F.], seq 300, ack 69, win 1028, length 0
+1696245706.890169 Lvlan1100_22 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 301, win 1022, length 0
+1696245706.890173 bond0 Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 301, win 1022, length 0
+1696245706.890175 eno3  Out IP 94.131.2.113.63394 > 192.168.10.13.21: Flags [.], ack 301, win 1022, length 0
